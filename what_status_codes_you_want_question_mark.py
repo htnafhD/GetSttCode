@@ -30,3 +30,5 @@ for y in range(0, len(sys.argv), 1):
             print('Can not open file, make sure that the directory is correct and out file is from dirsearch.py')
     else:
         continue
+if (result == None):
+    print('Instructions: python(3) what_status_codes_you_want_question_mark.py f [--file_directory] s [--status_code]')
